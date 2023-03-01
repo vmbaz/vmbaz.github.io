@@ -1,0 +1,184 @@
+body{
+    font-family:  sans-serif;
+    color: white;
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #deebea;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #411818;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #0c0b0b;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: rgb(95, 101, 123);
+    box-shadow: 10px 10px 5px 0px #111920;
+   }
+   
+
+#cover{ 
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 18em;
+    size: 20em;
+    
+
+    
+}
+ #ctitulo{
+    text-shadow: rgba(255,162,0,0.96) 0px 0px 42px;
+    font-size: 5em;
+    font-weight: bolder;
+    color: whitesmoke ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:underline;
+    
+  
+ }
+
+ img{
+    width: 30px;   
+}
+
+
+ #coverb{
+     background-image: url(imagenes/cover.jpg);
+     background-size: cover ;
+     
+ }
+
+
+    header{
+        background-color: #225fa4f1;
+    }
+    #titulo{
+        font-size: 5em;
+        font-weight: bolder;
+        -webkit-text-stroke: 2px rgb(31, 15, 46);
+        text-shadow: rgb(224, 6, 6) 0px 0px 36px;
+        
+    
+    }
+ #inicio{
+     
+     padding-top: 15em;
+     padding-bottom: 15em;
+     background-image: url(imagenes/inicio.jpg);
+     background-size: cover;
+     
+    color: rgb(245, 245, 245);
+    text-shadow: rgba(255,0,0,1) 0px 0px 36px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+     
+    }  
+
+#miFoto{
+    margin: 50px;
+    border: solid 3px black;
+    width: 300px;
+    align-content: center;       
+    border-radius: 50%;
+        
+}
+
+ #resumen{
+     background-color:  rgb(7, 7, 11);
+     padding-top: 10em;
+     padding-bottom: 10em;
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+     
+    }  
+    #resumen h1,h3,h4{
+        text-decoration: underline;
+        font-weight: bolder;
+      
+      padding: auto;
+        
+    }
+    
+ #trabajos{
+     background-color: rgb(7, 7, 11);
+     padding-top: 10em;
+     padding-bottom: 10em;
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }  
+ #contacto{
+     background-color:  rgb(7, 7, 11);
+     padding-top: 10em;
+     padding-bottom: 10em;
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     display: flex;
+     font-weight: bolder;
+     text-decoration: underline;
+     
+
+    }  
+    #formp{
+      padding-top: 5em;
+      padding-bottom: 5em;
+      background-color:  rgb(7, 7, 11);
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+    #form{
+        
+        border-radius: 20px;
+        padding-bottom: 2em;
+         width:20em;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        border: 2px solid black;
+        background-image: linear-gradient(to right top, #940657, #79195e, #5d225f, #42255a, #29254f, #242854, #1d2a5a, #112d5f, #16367a, #233f96, #3647b2, #4d4ecd);
+        
+    }
+
+    #footer{
+        background-color:  rgb(237, 250, 253);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
